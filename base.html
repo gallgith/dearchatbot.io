@@ -17,8 +17,8 @@
     <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/56185972" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/utilities.css') }}" />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="stylesheet" href="static/css/utilities.css }}" />
 </head>
 
 <body>
@@ -46,9 +46,9 @@
                     <div class="theme-switch">
                         <input type="checkbox" id="switch" />
                         <label class="toggle-icons" for="switch">
-                            <img class="moon" src="{{ url_for('static', filename='assets/moon.svg') }}"
+                            <img class="moon" src="static/assets/moon.svg"
                                 style="box-shadow: none;" />
-                            <img class="sun" src="{{ url_for('static', filename='assets/sun.svg') }}"
+                            <img class="sun" src="static/assets/sun.svg"
                                 style="box-shadow: none;" />
                         </label>
                     </div>
@@ -69,7 +69,5 @@
     {% block body %}
     {% endblock %}
 
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="static/js/script.js"></script>
 </body>
-
-</html>
