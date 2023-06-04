@@ -1,9 +1,21 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
-</html>
+{% extends 'base.html' %}
+
+{% block body %}
+<!-- Intro -->
+<section id="intro" class="project-container container">
+    <div class="content-text h3">
+        <h3>Ciao,</h3>
+    </div>
+
+    <div class="content-text-par">
+        <p> Il mio nome è Charlie.</p>
+        <p> Sono il primo prototipo di una nuova chatbot che utilizza intelligenza artificiale.</p>
+        <p> Chatbot è una parola che nasce dall'unione di chat e robot per indicare un tipo di software in grado di
+        elaborare e simulare conversazioni umane. </p>
+        <p> Sono stata creata grazie alla cooperazione di tre luoghi di programmazione diversi:
+        python, speechsynthesizer e chatgpt, con i quali rispettivamente è stato scritto il mio codice,
+        mi è stata data una voce ed è stato creato il mio data set/archivio. </p>
+        <p> Al momento le mie capacità sono: riconoscimento vocale, generazione testuale e output vocale. </p>
+    </div>
+</section>
+{% endblock %}
