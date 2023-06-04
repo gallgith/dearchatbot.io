@@ -87,8 +87,44 @@
 {% block body %}
 <section id="projects" class="project-container container">
     <div class="content-text">
-        </li><a class="btn btn-primary" href="intro.html">Intro<i class="fas fa-arrow-right"></i></a></li>
-        </li><a class="btn btn-primary" href="finale.html">Finale<i class="fas fa-arrow-right"></i></a></li>
+        </li><a class="btn btn-primary" href="#intro">Intro<i class="fas fa-arrow-right"></i></a></li>
+        </li><a class="btn btn-primary" href="#finale">Finale<i class="fas fa-arrow-right"></i></a></li>
         </div>
     </section>
+{% endblock %}
+
+{% block body %}
+<!-- Intro -->
+<section id="intro" class="project-container container">
+    <div class="content-text h3">
+        <h3>Ciao,</h3>
+    </div>
+
+    <div class="content-text-par">
+        <p> Il mio nome è Charlie.</p>
+        <p> Sono il primo prototipo di una nuova chatbot che utilizza intelligenza artificiale.</p>
+        <p> Chatbot è una parola che nasce dall'unione di chat e robot per indicare un tipo di software in grado di
+        elaborare e simulare conversazioni umane. </p>
+        <p> Sono stata creata grazie alla cooperazione di tre luoghi di programmazione diversi:
+        python, speechsynthesizer e chatgpt, con i quali rispettivamente è stato scritto il mio codice,
+        mi è stata data una voce ed è stato creato il mio data set/archivio. </p>
+        <p> Al momento le mie capacità sono: riconoscimento vocale, generazione testuale e output vocale. </p>
+    </div>
+</section>
+{% endblock %}
+
+{% block body %}
+<!-- Finale -->
+<section id="finale" class="project-container container">
+    <div class="content-text h3">
+        <h3>Ciao!</h3>
+    </div>
+
+    <div class="content-text-par">
+        <p> Rispondendo a questo breve questionario (completamente anonimo)
+            contribuirai a definire i prossimi passi della ricerca e le mie future evoluzioni...</p>
+        <p> Ti ringrazio, </p>
+        <p> Silvia </p>
+    </div>
+</section>
 {% endblock %}
